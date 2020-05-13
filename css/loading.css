@@ -22,24 +22,28 @@ span:nth-child(1){
     background: #00485f;
     left: -24px;
     top: -24px;
+    animation-delay: .2s;
 }
 
 span:nth-child(2){
     background: #00deea;
     left: 0px;
     top: -24px;
+    animation-delay: .4s;
 }
 
 span:nth-child(3){
     background: #00deea;
     left: -24px;
     top: 0;
+    animation-delay: .6s;
 }
 
 span:nth-child(4){
     background: #00485f;
     left: 0;
     top: 0;
+    animation-delay: .8s;
 }
 
 @keyframes animate {
