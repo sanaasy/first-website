@@ -3,6 +3,25 @@
   padding: 0;
 }
 
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
+}
+
+body {
+    animation: transitionIn 1.75s;
+    position:absolute;
+    background: #ffffff;
+    color:#fff;
+}
+
 .top-menu {
   width:100vw;
   padding:3rem 0rem;
@@ -42,25 +61,6 @@
 
 .page-links a:hover {
   color: #abf0e9;
-}
-
-body {
-    animation: transitionIn 1.75s;
-    position:absolute;
-    background: #ffffff;
-    color:#fff;
-}
-
-@keyframes transitionIn {
-    from {
-        opacity: 0;
-        transform: rotateX(-10deg);
-    }
-
-    to {
-        opacity: 1;
-        transform: rotateX(0);
-    }
 }
 
 footer {
