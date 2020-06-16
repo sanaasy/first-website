@@ -18,14 +18,16 @@ body, html {
 
 body {
   /* animation: transitionIn 1.75s; */
-  background-color: #000000 !important;
+  /* background-color: #000000 !important; */
 } 
 
-#container{
+.container{
   width: 80%;
   max-width: 800px;
-  margin: 14rem auto;
+  margin: 10rem auto;
   padding: 7rem 0 0 5rem;
+  position: relative;
+  z-index: 1;
 }
 
 section {
@@ -67,6 +69,7 @@ section {
   color: #63b7af;
   text-decoration: none;
   font-size:0.9rem;
+  background: linear-gradient(180deg, rgba(255,255,255,0) 65%, #FFD0AE 65%);
 }
 
 .page-links a:hover {
@@ -78,14 +81,32 @@ section {
     width: 50px; 
     height: 50px;
 }
- 
+
+.home-text {
+  margin: 70px 0 0;
+}
+
 .hi {
-  color: #ffffff;
+  color: #000;
   font-family: "Poppins" !important;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 15px;
 }
 
 .name {
-  font-size: 4rem;
-  color: #ffffff;
+  color: #63b7af;
   font-family: "Poppins" !important;
+  font-size: 80px;
+  font-weight: 600;
+  margin: 0 0 20px;
+  line-height: 90px;
+}
+
+.typed-css {
+  color: #000;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 0 0 40px;
+  background: linear-gradient(180deg, rgba(255,255,255,0) 65%, #FFD0AE 65%);
 }

@@ -1,0 +1,19 @@
+{
+  "name": "sanaasy.github.io",
+  "version": "1.0.0",
+  "description": "my personal portfolio in a website",
+  "main": "custom.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sanaasy/sanaasy.github.io.git"
+  },
+  "author": "SANAA SYED",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sanaasy/sanaasy.github.io/issues"
+  },
+  "homepage": "https://github.com/sanaasy/sanaasy.github.io#readme"
+}
