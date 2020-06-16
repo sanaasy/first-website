@@ -1,3 +1,5 @@
+
+
 /* @keyframes transitionIn {
     from {
         opacity: 0;
@@ -9,16 +11,20 @@
         transform: rotateX(0);
     }
 } */
+
+body, html {
+  height: 80%;
+}
+
 body {
   /* animation: transitionIn 1.75s; */
-  background: #ffffff;
-  columns: #000000;;
+  background-color: #000000 !important;
 } 
 
 #container{
   width: 80%;
   max-width: 800px;
-  margin: 7rem auto;
+  margin: 14rem auto;
   padding: 7rem 0 0 5rem;
 }
 
@@ -74,10 +80,12 @@ section {
 }
  
 .hi {
-  font-size: 4rem;
+  color: #ffffff;
+  font-family: "Poppins" !important;
 }
 
 .name {
-  font-size: 6rem;
-  columns: #000000;;
+  font-size: 4rem;
+  color: #ffffff;
+  font-family: "Poppins" !important;
 }
