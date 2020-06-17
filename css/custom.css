@@ -12,10 +12,6 @@
     }
 } */
 
-body, html {
-  height: 80%;
-}
-
 body {
   /* animation: transitionIn 1.75s; */
   /* background-color: #000000 !important; */
@@ -73,7 +69,7 @@ section {
 }
 
 .page-links a:hover {
-  color: #abf0e9;
+  color: #547874;
   text-decoration: none;
 }
 
