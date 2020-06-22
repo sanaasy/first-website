@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Sanaa Syed</title>
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
@@ -16,52 +16,36 @@
 </head>
 
 <body data-spy="scroll">
-    <main>
-        <div class="container">
-            <div class="col-12 col-md-12 text-center">
-                <div class="home-text">
-                    <h4 class="hi">Hello, my name is</h4>
-                    <h5 class="name"> Sanaa Syed.</h5>
-                    <div class="typed-strings typed-css">
-                        <p>Backend Developer Intern @Shopify</p>
-                        <p>CS @Carleton</p>
-                        <p>Coder</p>
-                        <p>Writer</p>
-                        <p>Designer</p>
-                    </div>
-                    <span class="typed typed-css"></span>
-                </div>
-            </div>
-        </div>
+    <main id="container">
+        <section id="text-container">
+            <section class="col-12 col-md-12 text-center home-text">
+                <h4 class="hi">Hello, my name is</h4>
+                <h5 class="name"> Sanaa Syed.</h5>
+                <section class="typed-strings typed-css">
+                    <p>Backend Developer Intern @Shopify</p>
+                    <p>CS @Carleton</p>
+                    <p>Coder</p>
+                    <p>Writer</p>
+                    <p>Designer</p>
+                </section>
+                <span class="typed typed-css"></span>
+            </section>
+        </section>
 
-        <div class="row">
-            <div class="col-12 col-md-12 text-center">
-                <div class="home-text">
-                    this is going to be my experiences highlight in boxes
-                </div>
-            </div>
-        </div>
+        <p class="text-center">this is going to be my experiences highlight in boxes</p>
 
-        <div class="row">
-            <div class="col-12 col-md-12 text-center">
-                <div class="home-text">
-                    this is going to be my projects highlight in boxes
-                </div>
-            </div>
-        </div>
+        <p class="text-center">this is going to be my projects highlight in boxes</p>
 
-        <div class="row">
-            <div class="col-12 col-md-12 text-center">
-                <div class="home-text" id="about">
-                    I'm a first year <a>Dev Degree</a> intern @ Shopify <img src="images/shopify.png"
-                        style="width: 20px; height: 18px;"></img> and a
-                    rising sophmore at
-                    Carleton University.
-                    I'm also taking a minor in french 🥖!
-                    contact me @ sanaasyed.t@gmail.com
-                </div>
-            </div>
-        </div>
+        <section class="card about-container">
+            <section class="text-center card-body" id="about">
+                I'm a first year <a>Dev Degree</a> intern @ Shopify
+                <img src="images/shopify.png" style="width: 20px; height: 20px;" />
+                and a rising sophmore at
+                Carleton University.
+                I'm also taking a minor in french 🥖!
+                contact me @ sanaasyed.t@gmail.com
+            </section>
+        </section>
     </main>
 
     <section class="top-menu">
