@@ -17,6 +17,7 @@ body {
   /* background-color: #000000 !important; */
 } 
 
+/* top bar + main name + typed */
 .container{
   width: 80%;
   max-width: 800px;
@@ -55,7 +56,7 @@ section {
     width:95%;
     text-align: right;
     word-spacing:1.5rem;
-    letter-spacing:0.4rem;
+    letter-spacing:0.25rem;
     z-index:10;
     font-family: 'Lato';
     font-weight: bold;
@@ -106,3 +107,4 @@ section {
   margin: 0 0 40px;
   background: linear-gradient(180deg, rgba(255,255,255,0) 65%, #FFD0AE 65%);
 }
+
