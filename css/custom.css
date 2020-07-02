@@ -119,14 +119,46 @@ section {
 /* about section */
 .about-title {
   color: #000000;
-  text-decoration: none;
   background: linear-gradient(180deg, rgba(255,255,255,0) 65%, #FFD0AE 65%);
 }
 
 .about-container {
  width: 65%; 
- /* margin-left: 35%; */
  float: right;
+}
+
+.about-pic-container {
+  float: left;
+}
+
+.me-pic {
+  width: 120px;
+  height: 120px;
+  margin-left: 60%;
+  border-radius: 20%;
+}
+
+.about-link {
+  color: #00798C;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.about-link:hover {
+  color: #E26D5A;
+  text-decoration: none;
+}
+
+.about-icons {
+  width: 20px; 
+  height: 20px;
+  margin-bottom: 5px;
+}
+
+.about-icons2 {
+  width: 13px; 
+  height: 15px;
+  margin-bottom: 3px;
 }
 
 .email-me-button {
@@ -137,14 +169,4 @@ section {
   border: none;
   padding: 10px 20px;
   border-radius: 15px;
-}
-
-.me-pic {
-  width: 120px;
-  height: 120px;
-  margin-left: 60%;
-}
-
-.about-pic-container {
-  float: left;
 }
