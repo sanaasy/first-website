@@ -1,7 +1,7 @@
 const typed = new Typed('.typed', {
     stringsElement: '.typed-strings ',
-    typeSpeed: 30,
+    typeSpeed: 40,
     loop: !0,
-    backSpeed: 20,
+    backSpeed: 25,
     backDelay: 1000,
 });
