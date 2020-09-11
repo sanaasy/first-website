@@ -100,7 +100,7 @@ section {
 }
 
 .name {
-  color: #63b7af;
+  color: #547874;
   font-family: "Poppins" !important;
   font-size: 80px;
   font-weight: 600;
@@ -169,4 +169,17 @@ section {
   border: none;
   padding: 10px 20px;
   border-radius: 15px;
+}
+
+/* experiences section */
+.experience-container{
+  background-color: black;
+  border-radius: 20px;
+}
+
+.shopify-container {
+  width: 100px; 
+  height: 100px;
+  margin-top: 10px;
+  margin-bottom: 15px;
 }
