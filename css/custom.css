@@ -180,6 +180,20 @@ section {
 .shopify-container {
   width: 100px; 
   height: 100px;
-  margin-top: 10px;
+  margin-top: 13px;
   margin-bottom: 15px;
+}
+
+.rbc-container {
+  width: 80px; 
+  height: 100px;
+  margin-top: 13px;
+  margin-bottom: 15px;
+}
+
+.hv-container {
+  width: 200px; 
+  height: 50px;
+  margin-top: 50px;
+  margin-bottom: 25px;
 }
