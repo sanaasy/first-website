@@ -171,6 +171,16 @@ section {
   border-radius: 15px;
 }
 
+.social-button {
+  background-color: #63b7af;
+  color: white;
+  font-family: 'Lato';
+  font-size: 22px;
+  border: none;
+  padding: 3px 15px 7px;
+  border-radius: 15px;
+}
+
 /* experiences section */
 .experience-container{
   background-color: black;
@@ -196,4 +206,8 @@ section {
   height: 50px;
   margin-top: 50px;
   margin-bottom: 25px;
+}
+
+strong {
+  display:inline !important;
 }
