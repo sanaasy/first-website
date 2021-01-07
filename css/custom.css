@@ -211,3 +211,11 @@ section {
 strong {
   display:inline !important;
 }
+
+/* projects section */
+.project-container {
+  width: auto; 
+  height: 200px;
+  margin-top: 13px;
+  margin-bottom: 15px;
+}
